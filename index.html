@@ -51,23 +51,20 @@ As a web developer, I am skilled in various stacks such as HTML, CSS, Javascript
 		#contact{
 		  display:none;
 		}
+
+		/* Hide the mouse-scroll on tablet and mobile devices */
+@media (max-width: 991px) {
+  .mouse {
+    display:none;
+  }
+}
+
         </style>
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="110">
 
-<!-- LOADER -->
-<div class="preloader">
-    <div class="loader">
-		<div class="loader-inner ball-scale">
-          <div></div>
-          <div></div>
-          <div></div>
-		</div>
-	</div>
-</div>
-<!-- END LOADER --> 
 
 <!-- START HEADER -->
 <header class="header_wrap fixed-top light_skin hover_menu_style3 transparent-header">
